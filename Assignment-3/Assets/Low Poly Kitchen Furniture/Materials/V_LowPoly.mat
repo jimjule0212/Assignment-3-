@@ -24,19 +24,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: V_LowPoly
-  m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _DISABLE_SSR_TRANSPARENT
-  - _DOUBLESIDED_ON
-  - _NORMALMAP_TANGENT_SPACE
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2225
-  stringTagMap: {}
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
@@ -112,7 +110,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 28ebea393edf8534681ff132dc795495, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 99596c7d65e7f8a49bdaa2b94498b496, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -328,6 +330,10 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_A: {r: 0.7735849, g: 0, b: 0.23207557, a: 1}
+    - _Color_B: {r: 0.050980374, g: 0.21559435, b: 0.8196079, a: 1}
+    - _Color_G: {r: 0.06798759, g: 1, b: 0.042452775, a: 1}
+    - _Color_R: {r: 1, g: 0.03277376, b: 0, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
